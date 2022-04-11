@@ -13,6 +13,6 @@ app
   .get('/', (req, res) => res.render('pages/index'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
-app.post('/', function(req, res)) {
+app.post('/', function(req, res) {
   res.send("POSTED!")
-}
+})
